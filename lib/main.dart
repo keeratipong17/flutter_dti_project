@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dti_project/views/login_ui.dart';
 import 'package:flutter_dti_project/views/welcome_ui.dart';
+import 'package:flutter_dti_project/views/signup_ui.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
@@ -22,7 +23,7 @@ class _FlutterDtiProjectState extends State<FlutterDtiProject> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginUi(),//กำหนดห้าจอแรกของแอป
+      home: WelcomeUi(),//กำหนดห้าจอแรกของแอป
       theme: ThemeData(
         textTheme: GoogleFonts.kanitTextTheme(
           Theme.of(context).textTheme,
